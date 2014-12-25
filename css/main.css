@@ -1,0 +1,51 @@
+body{
+	background-color: #f8f8f8;
+	font-family: 'Lato', sans-serif;
+}
+
+
+hr {
+	border-style: solid;
+	border-color: #bcbbbb;
+
+}
+
+h1{
+	font-size: 32pt;
+	font-weight:  lighter;
+	margin-bottom: 10px;
+}
+
+
+h4{
+	font-size: 18pt;
+	font-weight: lighter;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.add-top-margin{
+	margin-top: 20px;
+}
+
+.thin-border {
+	border: solid thin;
+}
+
+.thin-border-rounded{
+	border: solid thin;
+	border-radius: 360px;
+}
+
+.header {
+	margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 995px) {
+
+	.header-center {
+		text-align: center;
+	}
+	
+}
